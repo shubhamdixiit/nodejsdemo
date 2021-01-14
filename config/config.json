@@ -1,0 +1,31 @@
+{
+	 
+	"mongo": {
+		"connectionString": "mongodb://localhost:27017/bookingsystem",
+		"connectionOptions": "{ native_parser: true}"
+	},
+	"PORT": 6001,
+	"ssl": false,
+	"publicPath": "assets",
+	"tmpImageUploadPath": "tmp",
+	"publicURL": "http://localhost:6001/",
+	"assetsURL": "http://localhost:6001/assets/",
+	"secret": "shhhhh",
+	"pageSize": 10,
+	"adminPageSize": 10,
+	"filterPriceRange": 2000,
+	"exportLimit": 1000,
+	"imageMaxSize": 3145728,
+	"options": {
+		"useNewUrlParser": true,
+		"useUnifiedTopology": true,
+		"useCreateIndex": true,
+		"useFindAndModify": false,
+		"autoIndex": false,
+		"poolSize": 10,
+		"bufferMaxEntries": 0,
+		"connectTimeoutMS": 10000,
+		"socketTimeoutMS": 45000,
+		"family": 4
+	}
+}
